@@ -111,7 +111,43 @@
                 </p>
               </div>
         </section>
-        <section class="content-section">
+        <section class="slideshow-section">
+  <div class="slideshow-container" id="slideshow1">
+    <div class="mySlides fade">
+      <img
+        src="../images/spinal cord injury/Cervical Spinal Cord C1-C3.png"
+        style="width: 100%"
+        alt="Image of spinal cord in the neck with red translucent circle over the spinal levels of C1 to C3. To the left of the diagram red text says Damage to the spinal cord at levels C1-C3 results in loss of function in all four limbs as well as having a profound impact on respiratory functions."
+      />
+    </div>
+
+    <div class="mySlides fade">
+      <img
+        src="../images/spinal cord injury/Cervical Spinal Cord C4-5.png"
+        style="width: 100%"
+        alt="Image of spinal cord in the neck with red translucent circle over the spinal levels of C4 to C5. To the left of the diagram red text says Spinal cord injury at levels C4 or C5 affects sensory and motor function of all four limbs and potential reduction of respiratory function."
+      />
+    </div>
+
+    <div class="mySlides fade">
+      <img
+        src="../images/spinal cord injury/Cervical Spinal Cord C6-7.png"
+        style="width: 100%"
+        alt="Image of spinal cord in the neck with red translucent circle over the spinal levels of C6 to C7. To the left of the diagram red text says C7 is the most common spinal cord injury. Injury to the spinal cord at these levels will affect movement and sensation in the legs as well as some function in the arm. While shoulder muscles remain functional, hand, wrist, and elbow movements are impaired."
+      />
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1, 'slideshow1', 'dots1')">&#5176;</a>
+    <a class="next" onclick="plusSlides(1, 'slideshow1', 'dots1')">&#5171;</a>
+  </div>
+
+  <div class="dot-container" id="dots1">
+  <span class="dot" onclick="currentSlide(1, 'slideshow1', 'dots1')"></span>
+  <span class="dot" onclick="currentSlide(2, 'slideshow1', 'dots1')"></span>
+  <span class="dot" onclick="currentSlide(3, 'slideshow1', 'dots1')"></span>
+</div>
+</section>
+ <section class="content-section">
           <div class="subsection">
             <h2>What does the spinal cord in the neck do?</h2>
             <p>
@@ -121,9 +157,6 @@
               </span>
               being the most commonly injured.
             </p>
-            <div class="placeholder" style="align-items: center">
-                <img src="../images/placeholder11.png" alt="" />
-            </div>
             <p>
               Injury to C7 results in an individual losing the ability to 
               <span class="font-semibold">
@@ -218,6 +251,7 @@
     </footer>
 
     <script src="./scripts/script.js"></script>
+    <script src="../scripts/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typogr/0.6.7/typogr.min.js"></script>
     <script>
       document.body.innerHTML = typogr.widont(document.body.innerHTML);

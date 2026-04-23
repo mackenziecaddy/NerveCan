@@ -166,7 +166,7 @@
 /* --- End Nested Media-Text Column Styles --- */
 
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 80%;
   position: relative;
   margin: auto;
   background-color: #fff; /* White background for the slide container */
